@@ -1,0 +1,52 @@
+{
+  "name": "react-native-progressive-load-image",
+  "version": "1.0.0",
+  "description": "ReactNative progressive load image component",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "./run 'yarn run example:build' 'yarn run example:run'",
+    "example:run": "cd example/FloatingAction && react-native run-ios",
+    "example:build": "cd example/FloatingAction && yarn start",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santomegonzalo/react-native-progressive-load-image.git"
+  },
+  "keywords": [
+    "react-native",
+    "image",
+    "progressive-loading",
+    "progressive-load",
+    "animation"
+  ],
+  "author": "Gonzalo Santome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santomegonzalo/react-native-progressive-load-image/issues"
+  },
+  "homepage": "https://github.com/santomegonzalo/react-native-progressive-load-image#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.45",
+    "prop-types": ">=15.5.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-react-native": "3.0.0",
+    "eslint": "4.4.1",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-config-airbnb-base": "11.3.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-babel": "4.1.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.2.1"
+  }
+}
